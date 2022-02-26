@@ -1,0 +1,67 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: red;
+}
+
+header nav a{
+    text-decoration: none;
+    color: blue;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    background-color: transparent;
+    color: dodgerblue;
+}
+
+.film-principal{
+    font-size: 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5) 100%),url("../img/bg.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: cover;
+}
+
+.film-principal .description{
+    margin: 10px;
+    margin-bottom: 40%;
+    font-size: 20px;
+}
+
+.film-principal .title{
+    margin-top: 15px;
+    font-size: 40px; 
+}
+
+.button-watch:hover{
+    background-color: black;
+    color: red;
+    
+}
+
+.container{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.film-principal .container{
+    width: 70%;
+}
+
